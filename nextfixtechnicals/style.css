@@ -1,3 +1,32 @@
-.headerdiv01{
-    
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.logo-div {
+    width: 35%;
+    height: fit-content;
+    padding: 2px;
+}
+
+.logo-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navmain-div{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    height: max-content;
+}
+.nav-div{
+
+    width: 100%;
+    height: 50%;
+}
+.nav-div a{
+    text-decoration: none;
+    margin: 0 1%;
+    color: #09a6c6;
+
 }
